@@ -1,0 +1,14 @@
+.venv/
+.secrets/
+state.json
+login_status.json
+login_qr.png
+login_qr_payload.txt
+verify_code.txt
+inbox.jsonl
+inbox_raw.jsonl
+outbox.jsonl
+run.log
+login.log
+*.tmp
+__pycache__/
