@@ -110,7 +110,7 @@ bash install.sh
 
 ## 接入 Muse 自动回复（hook）
 
-1. 把 `hooks/weixin-inbox.sh` 放到 Muse 的 hook 脚本目录，设 30 秒轮询，
+1. 把 `hooks/weixin-inbox.sh` 放到 Muse 的 hook 脚本目录，设 10 秒轮询，
    并设置环境变量 `BRIDGE_DIR` 指向桥目录（默认 `~/workspace/weixin-bridge`）。
 2. 唤醒后的 agent 按 `hooks/weixin-inbox.prompt.md` 的提示词工作：
    读 `inbox.jsonl`，只回 `in_reply_to` 未出现过的新消息，回复追加到
